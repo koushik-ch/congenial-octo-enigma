@@ -1,15 +1,15 @@
 
 
-##Given an image of a vehicle (Indian), you need to identify the dimensions of each character (A-Z, 0-9) from the license plate
+# Given an image of a vehicle (Indian), you need to identify the dimensions of each character (A-Z, 0-9) from the license plate
 
-##Solution
+## Solution
 Language used: Python 3
 Tools  & Packages used:- OpenCV
 			      Tesseract OCR
 			      PyTesseract
 			      Jupyter Notebooks
 
-##Steps involved: -
+## Steps involved: -
 •	Import OpenCV and Pytesseract which are the necessary packages
 •	Read the image using the imread() function from OpenCV library
 •	A pre trained model for recognizing license plates of vehicles which is stored as an xml file is loaded as a cascade classifier into an Object. [Reference](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
@@ -29,7 +29,7 @@ Tools  & Packages used:- OpenCV
 •	The width of each character is found by subtracting the lowest x-axis value with the highest x-axis value.
 •	The spacing between each of the characters is found by subtracting the right most x-axis value of the previous character with the left most x-axis value of the current character.
 •	The obtained values are then printed.
-                                            ##Sample Input and Output
+                                            ## Sample Input and Output
 
 Input image:
 
@@ -116,7 +116,7 @@ G :- Height: 13  Width: 10  Space: 1
 7 :- Height: 12  Width: 6  Space: 1
 9 :- Height: 12  Width: 7  Space: 1
  
-Referred Websites/Tutorials:
+## Referred Websites/Tutorials:
 https://www.youtube.com/watch?v=WQeoO7MI0Bs&t=2726s
 https://www.youtube.com/watch?v=6DjFscX4I_c&t=1059s
 https://medium.com/programming-fever/license-plate-recognition-using-opencv-python-7611f85cdd6c
