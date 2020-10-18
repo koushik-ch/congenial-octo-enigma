@@ -3,11 +3,11 @@
 # Given an image of a vehicle (Indian), you need to identify the dimensions of each character (A-Z, 0-9) from the license plate
 
 
-Language used: Python 3
+Language used: Python 3 \
 Tools  & Packages used:- OpenCV
-			      Tesseract OCR
-			      PyTesseract
-			      Jupyter Notebooks
+			      Tesseract OCR \
+			      PyTesseract \
+			      Jupyter Notebooks \
 
 ## Steps involved: -
 *	Import OpenCV and Pytesseract which are the necessary packages
