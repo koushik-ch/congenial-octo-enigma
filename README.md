@@ -49,7 +49,7 @@ X :- Height: 45  Width: 22  Space: 7 \
 3 :- Height: 43  Width: 22  Space: 8 \
 5 :- Height: 55  Width: 28  Space: 3 \
 3 :- Height: 44  Width: 21  Space: 8 \
-4 :- Height: 45  Width: 23  Space: 8 \
+4 :- Height: 45  Width: 23  Space: 8 
 
  
 INPUT IMAGE:
@@ -69,7 +69,7 @@ C :- Height: 57  Width: 23  Space: 9 \
 8 :- Height: 57  Width: 19  Space: 25 \
 3 :- Height: 75  Width: 27  Space: 1 \
 2 :- Height: 56  Width: 20  Space: 8 \
-6 :- Height: 57  Width: 20  Space: 7 \
+6 :- Height: 57  Width: 20  Space: 7 
 
  
 
@@ -91,7 +91,7 @@ P :- Height: 31  Width: 16  Space: 5 \
 1 :- Height: 31  Width: 5  Space: 17 \
 5 :- Height: 30  Width: 16  Space: 8 \
 4 :- Height: 30  Width: 16  Space: 6 \
-3 :- Height: 64  Width: 45  Space: 5 \
+3 :- Height: 64  Width: 45  Space: 5 
  
 
 
@@ -114,7 +114,7 @@ G :- Height: 13  Width: 10  Space: 1 \
 8 :- Height: 12  Width: 7  Space: 4 \
 1 :- Height: 12  Width: 5  Space: 1 \
 7 :- Height: 12  Width: 6  Space: 1 \
-9 :- Height: 12  Width: 7  Space: 1 \
+9 :- Height: 12  Width: 7  Space: 1 
  
 ## Referred Websites/Tutorials:
 https://www.youtube.com/watch?v=WQeoO7MI0Bs&t=2726s
