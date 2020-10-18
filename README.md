@@ -39,7 +39,7 @@ Input image:
 OUTPUT:
 Detected license plate Number is: TSO7FX3534
 
-Plate dimensions: 77 x 310
+Plate dimensions: 77 x 310 \
 T :- Height: 44  Width: 22  Space: 4 \
 S :- Height: 43  Width: 22  Space: 7 \
 O :- Height: 54  Width: 22  Space: 8 \
@@ -59,7 +59,7 @@ OUTPUT:
 
 Detected license plate Number is: TN02BC8326
 
-Plate dimensions: 128 x 386
+Plate dimensions: 128 x 386 \
 T :- Height: 55  Width: 23  Space: 19 \
 N :- Height: 55  Width: 24  Space: 8 \
 0 :- Height: 57  Width: 20  Space: 25 \
@@ -81,7 +81,7 @@ INPUT IMAGE:
 OUTPUT:
 Detected license plate Number is: MHOZEP1543
 
-Plate dimensions: 67 x 269
+Plate dimensions: 67 x 269 \
 M :- Height: 31  Width: 4  Space: 33 \
 H :- Height: 31  Width: 17  Space: 5 \
 O :- Height: 31  Width: 15  Space: 8 \
@@ -104,7 +104,7 @@ OUTPUT:
 
 Detected license plate Number is: MH12EG8179 E
 
-Plate dimensions: 32 x 127
+Plate dimensions: 32 x 127 \
 M :- Height: 13  Width: 12  Space: 6 \
 H :- Height: 12  Width: 10  Space: 1 \ 
 1 :- Height: 13  Width: 6  Space: 4  \
