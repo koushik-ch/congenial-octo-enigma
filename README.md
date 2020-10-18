@@ -4,7 +4,7 @@
 
 
 Language used: Python 3 \
-Tools  & Packages used:- OpenCV
+Tools  & Packages used:-  \ OpenCV \
 			      Tesseract OCR \
 			      PyTesseract \
 			      Jupyter Notebooks 
