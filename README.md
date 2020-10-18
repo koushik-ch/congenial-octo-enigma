@@ -2,7 +2,7 @@
 
 # Given an image of a vehicle (Indian), you need to identify the dimensions of each character (A-Z, 0-9) from the license plate
 
-## Solution
+
 Language used: Python 3
 Tools  & Packages used:- OpenCV
 			      Tesseract OCR
