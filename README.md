@@ -106,7 +106,8 @@ Detected license plate Number is: MH12EG8179 E
 
 Plate dimensions: 32 x 127 \
 M :- Height: 13  Width: 12  Space: 6 \
-H :- Height: 12  Width: 10  Space: 1 \ 
+H :- Height: 12  Width: 10  Space: 1 
+
 1 :- Height: 13  Width: 6  Space: 4 \
 2 :- Height: 12  Width: 8  Space: 1 \
 E :- Height: 12  Width: 8  Space: 4 \
