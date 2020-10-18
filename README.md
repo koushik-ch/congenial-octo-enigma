@@ -1,24 +1,24 @@
 
 
-Given an image of a vehicle (Indian), you need to identify the dimensions of each character (A-Z, 0-9) from the license plate
+##Given an image of a vehicle (Indian), you need to identify the dimensions of each character (A-Z, 0-9) from the license plate
 
-Solution
+##Solution
 Language used: Python 3
 Tools  & Packages used:- OpenCV
 			      Tesseract OCR
 			      PyTesseract
 			      Jupyter Notebooks
 
-Steps involved: -
+##Steps involved: -
 •	Import OpenCV and Pytesseract which are the necessary packages
 •	Read the image using the imread() function from OpenCV library
-•	A pre trained model for recognizing license plates of vehicles which is stored as an xml file is loaded as a cascade classifier into an Object. Reference
-•	The number plate is then detected by the Cascade classifier Object which contains the function detectMultiScale() which detects objects of different sizes in the input image. Reference
+•	A pre trained model for recognizing license plates of vehicles which is stored as an xml file is loaded as a cascade classifier into an Object. [Reference](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
+•	The number plate is then detected by the Cascade classifier Object which contains the function detectMultiScale() which detects objects of different sizes in the input image. 
 •	The detected objects are returned as a list of rectangles.
 •	The dimensions of the first rectangle are stored and are drawn as a rectangle on the given image using the rectangle() function from the OpenCV library
 •	The given image is cropped to the drawn rectangle.
 •	The Cropped image is passed into the method cv2.COLOR_BGR2GRAY which is passed to the function cv2.cvtColor from the OpenCV library. This is done to convert the image into grayscale image.
-•	The grayscale image is then passed into the method cv2.THRESH_BINARY which is passed to the function cv2.threshold from the OpenCV library. This is done to convert the image into Binary image using the given threshold values Reference
+•	The grayscale image is then passed into the method cv2.THRESH_BINARY which is passed to the function cv2.threshold from the OpenCV library. This is done to convert the image into Binary image using the given threshold values [Reference](https://docs.opencv.org/master/d7/d4d/tutorial_py_thresholding.html)
 •	The binary image is then passed into the function image_to_string() offered by  the package  pytesseract. It is configured in such a way that the function only detects letters and numbers.
 •	The detected text is then printed.
 •	The text is then stored as a list of individual characters.
@@ -29,11 +29,11 @@ Steps involved: -
 •	The width of each character is found by subtracting the lowest x-axis value with the highest x-axis value.
 •	The spacing between each of the characters is found by subtracting the right most x-axis value of the previous character with the left most x-axis value of the current character.
 •	The obtained values are then printed.
-                                            Sample Input and Output
+                                            ##Sample Input and Output
 
 Input image:
 
- 
+ [IMG](https://github.com/rahulrk2303/Assignment-for-2nd-and-3rd-year-IT-students/blob/main/input_images/img31.png)
 
 OUTPUT:
 Detected license plate Number is: TSO7FX3534
@@ -52,7 +52,7 @@ X :- Height: 45  Width: 22  Space: 7
 
  
 INPUT IMAGE:
- 
+ [IMG](https://github.com/rahulrk2303/Assignment-for-2nd-and-3rd-year-IT-students/blob/main/input_images/IMG_20200801_160718.jpg)
 
 OUTPUT:
 
@@ -75,7 +75,7 @@ C :- Height: 57  Width: 23  Space: 9
 
 INPUT IMAGE:
 
- 
+ [IMG](https://github.com/rahulrk2303/Assignment-for-2nd-and-3rd-year-IT-students/blob/main/input_images/1596049634587.png)
 
 OUTPUT:
 Detected license plate Number is: MHOZEP1543
@@ -97,7 +97,7 @@ P :- Height: 31  Width: 16  Space: 5
 
 
 INPUT IMAGE:
-
+[IMG](https://github.com/rahulrk2303/Assignment-for-2nd-and-3rd-year-IT-students/blob/main/input_images/7.png)
  
 
 OUTPUT:
@@ -119,4 +119,6 @@ G :- Height: 13  Width: 10  Space: 1
 Referred Websites/Tutorials:
 https://www.youtube.com/watch?v=WQeoO7MI0Bs&t=2726s
 https://www.youtube.com/watch?v=6DjFscX4I_c&t=1059s
+https://medium.com/programming-fever/license-plate-recognition-using-opencv-python-7611f85cdd6c
+https://towardsdatascience.com/ai-based-indian-license-plate-detector-de9d48ca8951
 
